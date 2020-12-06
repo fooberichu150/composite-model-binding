@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace CompositeModelBinding.Binders
+namespace WebAppNetCore.Binders
 {
 	[AttributeUsage(AttributeTargets.Class | AttributeTargets.Parameter, Inherited = true, AllowMultiple = false)]
 	public class FromRouteAndQueryAttribute : Attribute, IBindingSourceMetadata
